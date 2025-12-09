@@ -1,0 +1,23 @@
+class car{    
+    float speed(){return 0;}    
+}    
+class maruthisuzuki extends car{    
+    float speed(){return 100f;}    
+}    
+class   audi extends car{    
+    float speed(){return 150f;}    
+}    
+class innova extends car{    
+    float speed(){return 180f;}    
+}    
+public class Main {    
+ public static void main(String args[]){    
+  car r;    
+  r=new maruthisuzuki();    
+  System.out.println("maruthisuzuki speed: "+r.speed());    
+  r=new audi();    
+  System.out.println("audi speed: "+r.speed());    
+  r=new innova();    
+  System.out.println("innova speed: "+r.speed());    
+ }    
+}
