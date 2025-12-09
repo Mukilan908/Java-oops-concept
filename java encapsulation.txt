@@ -1,0 +1,16 @@
+class Employee {
+    int salary = 15000;
+    int bonus = 6000; 
+    
+    void Total() {
+        if (salary + bonus > 20000) {
+            System.out.println("Total 20000");
+        }
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Employee emp  = new Employee();
+        emp.Total();
+    }
+}
